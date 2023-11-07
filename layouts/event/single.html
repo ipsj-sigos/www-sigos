@@ -1,0 +1,106 @@
+{{- define "main" -}}
+
+<div class="pub">
+
+  {{- $img := "" -}}
+  {{ $alt := (.Params.banner.caption | default "") | plainify }}
+  {{ $destination := .Params.banner.image }}
+  {{ $is_remote := strings.HasPrefix $destination "http" }}
+  {{- if not $is_remote -}}
+    {{- $img = (.Page.Resources.ByType "image").GetMatch $destination -}}
+    {{- if not $img -}}
+      {{- /*$img = resources.Get (path.Join "media" $destination)*/ -}}
+    {{- end -}}
+  {{- end -}}
+  {{ if $img }}
+    {{ $img = $img.RelPermalink }}
+  {{ else }}
+    {{ $img = .Params.banner.image }}
+  {{ end }}
+
+  <div class="article-header page-event-header" style="background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url('{{.Params.banner.image}}'); background-size: cover; background-position: center;">
+    <br>
+    <h1>{{ .Title }}</h1>
+
+    <p class="page-subtitle">{{ .Params.subtitle | markdownify | emojify }}</p>
+    <p class="event-date">{{ .Params.date_string }}
+    <br>{{ .Params.location }}
+    {{ if .Params.hybrid }}
+    <br>{{ .Params.hybrid }}
+    {{ end }}
+    </p>
+    <br>
+
+    {{ with .Params.banner.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+  </div>
+
+  <div class="article-container">
+
+    {{ if .Params.abstract }}
+      <h1>{{ i18n "abstract" }}</h1>
+      <p class="pub-abstract">{{ .Params.abstract | markdownify | emojify }}</p>
+    {{ else }}
+      <br>
+    {{ end }}
+
+    {{ if .Params.date }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "date" }}</div>
+          <div class="col-12 col-md-9">
+            {{ partial "functions/get_event_dates" . }}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    {{ end }}
+
+    {{ if .Params.event }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "event" }}</div>
+          <div class="col-12 col-md-9">
+            {{ with .Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+            {{ .Params.event | markdownify }}
+            {{ if .Params.event_url }}</a>{{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    {{ end }}
+
+    {{ if .Params.location }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "location" }}</div>
+          <div class="col-12 col-md-9">{{ .Params.location | markdownify }}</div>
+          {{ if .Params.address }}
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9">{{partial "functions/get_address" (dict "root" . "address" .Params.address) }}</div>
+          {{end}}
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    {{ end }}
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</div>
+{{- end -}}
