@@ -7,9 +7,9 @@
 
 appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: minimal
   font: native
-  font_size: L
+  font_size: M
 
 # SEO
 
@@ -18,8 +18,8 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'IPSJ Special Interest Group on System Software and Operating Systems'
+    twitter: 'ipsj_sigos'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -33,6 +33,7 @@ marketing:
 
 header:
   navbar:
+    block: navbar-sigos
     enable: true
     align: r
     show_logo: true
@@ -45,9 +46,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '&copy; {year} 情報処理学会システムソフトウェアとオペレーティング・システム研究会'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -55,9 +56,9 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
+  date_format: '2006年1月2日'
+  time_format: '15:04'
+  address_format: ja-jp
 
 # Site features
 

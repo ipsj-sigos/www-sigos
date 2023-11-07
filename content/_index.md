@@ -5,21 +5,64 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+
+  - block: slider
     content:
-      title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+      slides:
+      - title: 情報処理学会OS研究会
+        content: 'システムソフトウェアやオペレーティングシステムに関する<br>🇯🇵 日本の研究者コミュニティです 👥'
+        align: center
+        background:
+          image:
+            filename: programmer.jpg
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
+      - title: 研究発表会
+        content: 'システムソフトウェアに関する最先端の<br>研究成果が発表されます ‍🧑‍🎓💻'
+        align: left
+        background:
+          image:
+            filename: symposium.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: '300px'
+      is_fullscreen: false
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 10000
+
+  - block: portfolio
+    content:
+      title: 最近のイベント
+      filters:
+        folders:
+          - event
+        tags: ['ComSys']
+        kinds:
+          - page
+      default_button_index: 0
+      buttons:
+        - name: All
+          tag: '*'
+        - name: ComSys
+          tag: ComSys
+        - name: 研究発表会
+          tag: Workshop
+      design:
+        columns: '1'
+        view: showcase
+        flip_alt_rows: true
+
   - block: collection
     content:
-      title: Latest News
+      title: ニュース
       subtitle:
       text:
       count: 5
@@ -35,33 +78,13 @@ sections:
     design:
       view: card
       columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-  
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+
+#  - block: markdown
+#    content:
+#      title:
+#      subtitle:
+#      text: |
+#        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+#    design:
+#      columns: '1'
 ---

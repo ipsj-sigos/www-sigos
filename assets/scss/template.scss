@@ -1,6 +1,40 @@
+:root {
+    --font-family: "Times New Roman", Times, "UD デジタル 教科書体 NK-R", "ヒラギノ角ゴ Pro W3", HiraKakuProN-W3, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+
+}
+
 // Make page header alignment consistent with widget page header alignment
 .universal-wrapper h1 {
-  text-align: center;
+    text-align: center;
+}
+
+.page-menu-style {
+    border-top: solid gray 2px;
+}
+
+.page-event-header h1, .page-event-header p {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px #F8F8F8;
+    text-shadow: 0px 1px 3px #23430C;
+}
+
+.page-event-header h1 {
+    font-size: 1.8rem;
+}
+
+.page-event-header p.page-subtitle {
+    font-size: 1.5rem;
+}
+
+.article-container h1 {
+    margin: 2em 0 1em 0;
+    text-align: center;
+}
+.article-container h2 {
+    margin: 2em 0 1em 0;
+    border-bottom: solid lightblue 4px;
 }
 
 // Center the CTA shortcode button

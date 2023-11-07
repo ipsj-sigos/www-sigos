@@ -1,5 +1,5 @@
 ---
-title: 紹介
+title: 表彰
 date: 2023-10-01
 
 type: landing
@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: 紹介
+      title: 表彰
       subtitle:
       text: |
             準備中

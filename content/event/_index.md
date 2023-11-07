@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Events
+title: 研究発表会とシンポジウム
 
 # Listing view
 view: compact

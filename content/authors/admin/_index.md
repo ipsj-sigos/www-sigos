@@ -1,29 +1,28 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: IPSJ SIGOS
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: sigos
+last_name: ipsj
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: 管理者
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: 情報処理学会OS研究会
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 情報処理学会システムソフトウェアとオペレーティング・システム研究会
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - オペレーティングシステム
+  - システムソフトウェア
 
 education:
   courses:
@@ -38,19 +37,24 @@ education:
       year: 2008
 
 # Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: twitter
+    icon_pack: fab
+    link: https://x.com/ipsj_sigos
+    display:
+      header: true
+  - icon: facebook
+    icon_pack: fab
+    link: https://facebook.com/ipsj.sigos
+    display:
+      header: true
+  - icon: calendar-days
+    link: https://calendar.google.com/calendar/embed?src=c_83f2cdb191dea7d35a78a8148748c33667b67bedd308664f27a8c2e3a267e4c2%40group.calendar.google.com
+    display:
+      header: true
   - icon: envelope
     icon_pack: fas
     link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/gcushen
@@ -68,8 +72,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - Researchers
+user_groups: []
 ---
 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
