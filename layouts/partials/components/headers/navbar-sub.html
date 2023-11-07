@@ -1,0 +1,44 @@
+{{ if .Params.page_menu }}
+<header>
+  <span class="js-widget-page d-none"></span>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar page-menu-style" id="navbar-page-menu">
+    <div class="container-xl">
+
+      {{ if .Params.page_menu.title }}
+      <div>
+        <a class="navbar-brand" href="{{ relref . "_index.md" }}">
+        {{- if .Params.page_menu.logo -}}
+          <img src="{{ .Params.page_menu.logo.RelPermalink }}" alt="{{ .Params.page_menu.title }}"
+          {{with site.Params.header.image.width}}width="{{.}}"{{end}}
+          {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
+        {{- else -}}
+          {{- .Params.page_menu.title -}}
+        {{- end -}}
+        </a>
+      </div>
+      {{end}}
+
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#page-menu-content" aria-controls="page-menu-content" aria-expanded="
+false" aria-label="{{ i18n "toggle_navigation" }}">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="page-menu-content">
+        <ul class="navbar-nav d-md-inline-flex">
+
+          {{ range .Params.page_menu.list }}
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="{{ relref $ .link }}">
+            <span>{{ .name }}</span>
+            </a>
+          </li>
+          {{ end }}
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+</header>
+{{ end }}
