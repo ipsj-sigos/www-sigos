@@ -1,3 +1,6 @@
+# generic
+.DS_Store
+
 # IDEs
 .idea/
 
@@ -5,3 +8,4 @@
 /resources/
 public/
 assets/jsconfig.json
+.hugo_build.lock
