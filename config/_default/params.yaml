@@ -32,6 +32,7 @@ marketing:
 # Site header
 
 header:
+  on_scroll: 'sticky'
   navbar:
     block: navbar-sigos
     enable: true
@@ -106,7 +107,7 @@ features:
 # Extensions
 
 extensions:
-  cms:
+  decap_cms:
     branch: main
     local_backend: false
   academicons:
