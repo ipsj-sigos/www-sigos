@@ -1,0 +1,41 @@
+{{- define "main" -}}
+
+<div class="pub">
+
+  {{- $img := "" -}}
+  {{ $alt := (.Params.banner.caption | default "") | plainify }}
+  {{ $destination := .Params.banner.image }}
+  {{ $is_remote := strings.HasPrefix $destination "http" }}
+  {{- if not $is_remote -}}
+    {{- $img = (.Page.Resources.ByType "image").GetMatch $destination -}}
+    {{- if not $img -}}
+      {{- /*$img = resources.Get (path.Join "media" $destination)*/ -}}
+    {{- end -}}
+  {{- end -}}
+  {{ if $img }}
+    {{ $img = $img.RelPermalink }}
+  {{ else }}
+    {{ $img = .Params.banner.image }}
+  {{ end }}
+
+  <div class="article-header page-event-header" style="background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url('{{.Params.banner.image}}'); background-size: cover; background-position: center;">
+    <br>
+    <h1>{{ .Title }}</h1>
+
+    <p class="page-subtitle">{{ .Params.subtitle | markdownify | emojify }}</p>
+    <p class="event-date">{{ .Params.date_string }}
+    <br>{{ .Params.location }}
+    {{ if .Params.hybrid }}
+    <br>{{ .Params.hybrid }}
+    {{ end }}
+    </p>
+    <br>
+
+    {{ with .Params.banner.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+  </div>
+
+</div>
+
+{{ partial "widget_page.html" . }}
+
+{{- end -}}

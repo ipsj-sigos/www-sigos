@@ -6,7 +6,7 @@
 
       {{ if .Params.page_menu.title }}
       <div>
-        <a class="navbar-brand" href="{{ relref . "_index.md" }}">
+        <a class="navbar-brand" href="{{ .RelPermalink }}">
         {{- if .Params.page_menu.logo -}}
           <img src="{{ .Params.page_menu.logo.RelPermalink }}" alt="{{ .Params.page_menu.title }}"
           {{with site.Params.header.image.width}}width="{{.}}"{{end}}
@@ -27,7 +27,20 @@ false" aria-label="{{ i18n "toggle_navigation" }}">
       <div class="navbar-collapse main-menu-item collapse justify-content-end" id="page-menu-content">
         <ul class="navbar-nav d-md-inline-flex">
 
-          {{ range .Params.page_menu.list }}
+          {{ $menu_list := slice }}
+          {{ if .Params.page_menu.list }}
+            {{ $menu_list = .Params.page_menu.list }}
+          {{ else }}
+            {{ $pages := site.GetPage .File.Path }}
+            {{ if $pages }}
+              {{ range $index, $block := where ( $pages.Resources.ByType "page" ) ".Params.active" "!=" false }}
+                {{ $id := replace $block.File.ContentBaseName "index" (path.Base .File.Dir) }}
+                {{ $menu_list = $menu_list | append (dict "name" .Title "link" (printf "#%s" $id) ) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
+          {{ range $menu_list }}
           <li class="nav-item">
             <a class="nav-link js-scroll" href="{{ relref $ .link }}">
             <span>{{ .name }}</span>
