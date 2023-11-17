@@ -5,7 +5,7 @@ weight: 20
 
 ## 招待講演1
 
-{{<figure src="https://static.csg.ci.i.u-tokyo.ac.jp/images/profiles/2021/chiba2021.jpg" width="200px">}}
+{{<figure src="chiba.jpg" width="200px">}}
 
 ### 千葉 滋（東京大学情報理工学系研究科創造情報学専攻・教授）
 #### 「Polyglot プログラミングは日の目をみるか」
