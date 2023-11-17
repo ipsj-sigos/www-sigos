@@ -1,5 +1,6 @@
 ---
-title: 研究発表会とシンポジウム
+title: イベント
+subtitle: シンポジウム ＆ 研究発表会
 
 # Listing view
 view: compact

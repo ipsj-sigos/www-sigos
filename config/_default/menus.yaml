@@ -7,7 +7,7 @@ main:
   - name: ニュース
     url: post
     weight: 10
-  - name: 研究発表会
+  - name: イベント
     url: event
     weight: 20
   - name: 運営委員会
