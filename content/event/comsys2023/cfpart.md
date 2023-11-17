@@ -6,27 +6,10 @@ weight: 15
 ## 参加費
 
 <style>
-table.GeneratedTable {
-  width: 100%;
-  background-color: #ffffff;
-  border-collapse: collapse;
-  border-width: 1px;
-  border-color: #ccc;
-  border-style: solid;
-  color: #000000;
+table.GeneratedTable caption {
+  caption-side: top;
+  font-size: large;
 }
-
-table.GeneratedTable td, table.GeneratedTable th {
-  border-width: 1px;
-  border-color: #ccc;
-  border-style: solid;
-  padding: 3px;
-}
-
-table.GeneratedTable thead {
-  background-color: #e1e9f3;
-}
-
 table.GeneratedTable th {
   text-align: center;
   vertical-align: middle;
