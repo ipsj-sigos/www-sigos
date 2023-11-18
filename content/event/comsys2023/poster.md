@@ -1,6 +1,7 @@
 ---
 title: ポスター
-weight: 35
+weight: 50
+nomenu: true
 ---
 
 ## 採択ポスター発表一覧

@@ -1,6 +1,7 @@
 ---
-title: 企業展示
+title: 企業展示募集
 weight: 50
+nomenu: true
 ---
 ## 概要
 

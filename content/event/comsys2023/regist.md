@@ -1,8 +1,7 @@
 ---
 title: 参加募集
-weight: 15
+weight: 10
 ---
-
 ## 参加費
 
 <style>
@@ -69,16 +68,39 @@ table.GeneratedTable td {
 </table>
 <!-- Codes by Quackit.com -->
 
+
 ## 参加登録
 
-論文発表される方、ポスター発表の方、聴講のみの方、いずれも参加登録が必要です。
+### 情報処理学会会員の方
+
+論文発表される方、ポスター発表の方、聴講のみの方、いずれも参加登録が必要です。OS研究会の登録会員でない方は、先に研究会登録をされることをお勧めします。
 
 <div class="row">
 <div class="col-md">
-<h4 style="text-align: center">情報処理学会会員の方</h4>
-{{% cta cta_link="https://service.kktcs.co.jp/smms2/m2event/ipsj1/201800969" cta_text="参加申込 （マイページ）" %}}
+<h4 style="text-align: center">OS研究会に研究会登録する</h4>
+{{% cta cta_link="https://service.kktcs.co.jp/smms2/member/study_group/EntryConfirm.htm?dummy=0&id=6814" cta_text="研究会登録" %}}
 </div>
 <div class="col-md">
-<h4 style="text-align: center">情報処理学会非会員の方</h4>
+<h4 style="text-align: center">ComSys 2023に参加登録する</h4>
+{{% cta cta_link="https://service.kktcs.co.jp/smms2/m2event/ipsj1/201800969" cta_text="参加申込" %}}
+</div>
+</div>
+
+### 情報処理学会非会員の方
+
+情報処理学会の会員になっていただいて、OS研究会へ研究会登録をすることをお勧めします。
+
+<div class="row">
+<div class="col-md">
+<h4 style="text-align: center">情報処理学会に入会する</h4>
+{{% cta cta_link="https://www.ipsj.or.jp/nyukai.html" cta_text="入会申請" %}}
+</div>
+<div class="col-md">
+<h4 style="text-align: center">OS研究会に研究会登録する</h4>
+{{% cta cta_link="https://service.kktcs.co.jp/smms2/member/study_group/EntryConfirm.htm?dummy=0&id=6814" cta_text="研究会登録（マイページ）" %}}
+</div>
+<div class="col-md">
+<h4 style="text-align: center">入会せずに参加登録する</h4>
 {{% cta cta_link="https://www.ipsj.or.jp/kenkyukai/event/ComSys2023.html" cta_text="参加案内 （情報処理学会）" %}}
+</div>
 </div>
