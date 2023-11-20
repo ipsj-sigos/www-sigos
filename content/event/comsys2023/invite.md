@@ -5,7 +5,7 @@ weight: 30
 
 ## 招待講演1{#invite1}
 
-{{<figure src="chiba.jpg" width="200px">}}
+{{<figure src="img/chiba.jpg" width="180px" height="180px">}}
 
 ### 千葉 滋（東京大学情報理工学系研究科創造情報学専攻・教授）
 #### 「Polyglot プログラミングは日の目をみるか」
@@ -23,7 +23,7 @@ weight: 30
 
 ## 招待講演2{#invite2}
 
-{{<figure src="nobori.jpg" width="200px">}}
+{{<figure src="img/nobori.jpg" width="180px" height="180px">}}
 
 ### 登 大遊（ソフトイーサ株式会社 代表取締役）
 

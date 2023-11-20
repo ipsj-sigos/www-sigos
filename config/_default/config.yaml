@@ -20,7 +20,7 @@ removePathAccents: true
 ############################
 
 enableGitInfo: false
-summaryLength: 80
+summaryLength: 60
 paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
