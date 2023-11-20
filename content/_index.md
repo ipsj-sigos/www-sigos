@@ -42,7 +42,8 @@ sections:
     content:
       text: |
         {{% callout warning %}}
-        本サイトは現在のところ ComSys 2023 以降の情報のみ掲載しています。それ以前の情報については旧サイト http://www.ipsj.or.jp/sig/os/ をご参照ください。<br><br>ただし、旧サイトは https に対応してないため、最近の Google Chrome では http が自動的に https に変換されてしまい、"Not Found" と表示されます。お手数ですが、ブラウザで変換された https を http に手動で書き直してアクセスしてください。
+        本サイトは現在のところ ComSys 2023 以降の情報のみ掲載しています。それ以前の情報については旧サイト http://www.ipsj.or.jp/sig/os/ をご参照ください。<br><br>ただし、旧サイトは https に対応してないため、最近の  Chrome では http が自動的に https に変換されて "Not Found" と表示されてしまいます。
+        お手数ですが、手動で https を http に書き直してアクセスしてください。
         {{% /callout %}}
     design:
       columns: '1'
