@@ -19,3 +19,7 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+[[redirects]]
+  from = "/sig/os/*"
+  to = "http://www.ipsj.or.jp/sig/os/:splat"
