@@ -21,5 +21,9 @@
     debug = true
 
 [[redirects]]
+  from = "/sig/os/index.php?ComSys2023"
+  to = "/event/comsys2023/"
+
+[[redirects]]
   from = "/sig/os/*"
   to = "http://www.ipsj.or.jp/sig/os/:splat"
