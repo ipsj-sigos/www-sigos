@@ -8,7 +8,7 @@ nomenu: true
 
 1. キーバリュー分離下で範囲クエリを効率的に行うデータ格納手法の提案<br>
 杉浦 直人, 藤木 大地(慶應義塾大学)<br>
-<a href="posters/ComSys_2023_poster_01.pdf">Download PDF</a>
+<a href="posters/ComSys_2023_poster_01a.pdf">Download PDF</a>
 
 1. サイドカープロキシ環境下におけるマイクロサービスの遅延時間分析とFPGA SmartNICによる性能改善の検討<br>
 河野 竜也, 坂本 龍一(東京工業大学)<br>
