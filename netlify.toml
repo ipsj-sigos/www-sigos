@@ -21,8 +21,11 @@
     debug = true
 
 [[redirects]]
-  from = "/sig/os/index.php?ComSys2023"
+  from = "/sig/os/index.php"
   to = "/event/comsys2023/"
+  status = 301
+  force = false
+  query = { ComSys2023 = ":ComSys2023" }
 
 [[redirects]]
   from = "/sig/os/*"
