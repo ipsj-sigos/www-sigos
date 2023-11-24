@@ -20,13 +20,6 @@
   [plugins.inputs]
     debug = true
 
-[[redirects]]
-  from = "/sig/os/*"
-  to = "/event/comsys2023/"
-  status = 301
-  force = true
-  query = {ComSys2023 = ":ComSys2023"}
-
-[[redirects]]
-  from = "/sig/os/*"
-  to = "http://www.ipsj.or.jp/sig/os/:splat"
+[[edge_functions]]
+  path = "/sig/os/*"
+  function = "sigos_redir"
