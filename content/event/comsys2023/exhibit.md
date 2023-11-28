@@ -4,6 +4,7 @@ weight: 54
 ---
 
 ## Preferred Networks
+{{< figure src="img/pfn.png" link="https://www.preferred.jp/ja/" width="300px" >}}
 
 ### PFNの深層学習の研究開発を支えるインフラ
 
@@ -35,6 +36,7 @@ IS研究所では、IoT機器を安全・確実に運用するためのシステ
 ※TEEPプロトコル：TEE上で動作するアプリケーションや設定ファイルを安全にインストール・更新するためのプロトコル
 
 ## 三菱電機株式会社
+{{< figure src="img/mitsubishi.png" link="https://www.mitsubishielectric.co.jp/" width="300px" >}}
 
 ### 三菱電機のソフトウェア関連R&Dのご紹介
 
@@ -44,6 +46,7 @@ OSS貢献では、著名なOSSへの機能追加などによるコミュニテ�
 クラウド事業適用では、駅と街のガイドをするスマートフォンアプリ『ekinote』とクラウドとの連携技術をご紹介します。
 
 ## ArkEdge Space Inc.
+{{< figure src="img/arkedgespace.png" link="https://arkedgespace.com/" width="300px" >}}
 
 ### アークエッジ・スペースにおける超小型衛星向けのシステムソフトウェア開発での Rust の活用
 
