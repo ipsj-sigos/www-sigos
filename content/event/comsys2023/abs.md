@@ -7,22 +7,65 @@ weight: 1
 
 ## ニュース
 
-- 2023年11月17日: {{% scroll "#regist" 参加募集 %}}を開始しました
-- 2023年11月8日: {{% scroll "#poster" ポスター発表 %}}を公開しました
-- 2023年11月8日: {{% scroll "#program" プログラム %}}を公開しました
-- 2023年10月2日: {{% scroll "#cfex" 企業展示募集 %}}にスポンサーについて追記しました
-- 2023年9月25日: {{% scroll "#cfp" 発表募集 %}}を開始しました
+- 2023年11月17日: [参加募集](#regist)を開始しました
+- 2023年11月8日: [ポスター発表](#poster)を公開しました
+- 2023年11月8日: [プログラム](#program)を公開しました
+- 2023年10月2日: [企業展示募集](#cfex)にスポンサーについて追記しました
+- 2023年9月25日: [発表募集](#cfp)を開始しました
 - 2023年9月20日: 一般講演の締切情報を掲載しました
-- 2023年8月4日: {{% scroll "#cfex" 企業展示募集 %}}を開始しました
+- 2023年8月4日: [企業展示募集](#cfex)を開始しました
 - 2023年8月4日: ホームページを開設しました
 
 ## 重要日程
 
-|内容|日時|
-|---|:---|
-| ~~一般発表 申込〆切~~ | ~~**10月26日(木)**~~ |
-| ~~ポスター発表 原稿〆切~~ | ~~**11月2日(木)**~~  |
-| ~~一般発表 原稿〆切~~ | ~~**11月9日(木)**~~  |
-| ~~企業展示 申込〆切~~ | ~~**11月9日(木)**~~  |
-| 早期参加申し込み〆切 | **11月30日(木)**  |
-| シンポジウム | **12月7日（木）〜8日（金）**  |
+<div class="row">
+<div class="col-6">
+<h3><i class="fa-solid fa-calendar-days"></i> 10月26日（木）</h3>
+<s>一般発表 申し込み〆切</s>
+</div>
+
+<div class="col-6">
+<h3><i class="fa-solid fa-calendar-days"></i> 11月2日（木）</h3>
+<s>ポスター発表 申し込み〆切</s>
+</div>
+
+<div class="col-6">
+<h3><i class="fa-solid fa-calendar-days"></i> 11月9日（木）</h3>
+<s>一般発表 原稿〆切<br>
+企業展示 申し込み〆切</s>
+</div>
+
+<div class="col-6">
+<h3><i class="fa-solid fa-calendar-days"></i> 11月30日（木）</h3>
+早期参加申し込み〆切
+</div>
+
+<div class="col-6">
+<h3><i class="fa-solid fa-calendar-days"></i> 12月7日（木）〜8日（金）</h3>
+シンポジウム開催
+</div>
+</div>
+
+
+## スポンサー
+
+### Gold
+
+<div class="row">
+<div class="col-6">
+{{< figure src="img/pfn.png" link="https://www.preferred.jp/ja/" >}}
+</div>
+<div class="col-6">
+{{< figure src="img/mitsubishi.png" link="https://www.mitsubishielectric.co.jp/" >}}
+</div>
+</div>
+
+### Silver
+<div class="row">
+<div class="col-6">
+{{< figure src="img/arkedgespace.png" link="https://arkedgespace.com/" >}}
+</div>
+<div class="col-6">
+TBA
+</div>
+</div>
