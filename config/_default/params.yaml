@@ -15,10 +15,10 @@ appearance:
 
 marketing:
   seo:
-    site_type: Organization
+    site_type: ResearchOrganization
     local_business_type: ''
     org_name: ''
-    description: 'IPSJ Special Interest Group on System Software and Operating Systems'
+    description: '情報処理学会（IPSJ）システムソフトウェアとオペレーティング・システム研究会（OS研究会=SIGOS）の新公式ホームページです。'
     twitter: 'ipsj_sigos'
   analytics:
     google_analytics: ''
@@ -26,7 +26,7 @@ marketing:
     google_tag_manager: ''
     microsoft_clarity: ''
   verification:
-    google: ''
+    google: 'aOHdvZWpr5Q05CuNZrwdVCtTopXP3ZEkk2BKwlSR_iU'
     baidu: ''
 
 # Site header
