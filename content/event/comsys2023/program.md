@@ -2,8 +2,14 @@
 title: プログラム
 weight: 52
 ---
-
-## 12月7日（木）（1日目）
+{{% callout info %}}
+数字(1)〜(7)は論文あり、アルファベット(a)〜(g)は論文なし
+{{% /callout %}}
+{{% callout info %}}
+発表時間は1件30分（発表20分強、質疑10分弱）
+{{% /callout %}}
+#
+# 12月7日（木）（1日目）
 
 ### 9:50-10:00 オープニング
 
@@ -42,9 +48,7 @@ weight: 52
 
 #### IIJ技術研究所 安形 憲一 様
 
-[zpoline: a system call hook mechanism based on binary rewriting](https://www.usenix.org/conference/atc23/presentation/yasukata).<br>
-<u>Kenichi Yasukata</u>, Hajime Tazaki, and Pierre-Louis Aublin (IIJ Research Laboratory), Kenta Ishiguro (Hosei University)<br>
-2023 USENIX Annual Technical Conference
+[zpoline: a system call hook mechanism based on binary rewriting.](#topconf1)<br>
 
 ### 16:30-18:00 企業展示・ポスターセッション
 
@@ -101,8 +105,6 @@ weight: 52
 
 #### 東京大学 品川 高廣 様
 
-[Translation Pass-Through for Near-Native Paging Performance in VMs](https://www.usenix.org/conference/atc23/presentation/bergman).<br>
-Shai Bergman and Mark Silberstein (Technion), <u>Takahiro Shinagawa</u> (The University of Tokyo), Peter Pietzuch and Llu&#237;s Vilanova (Imperial College London).<br>
-2023 USENIX Annual Technical Conference
+[Translation Pass-Through for Near-Native Paging Performance in VMs.](#topconf2)
 
 ###  17:20-17:30 クロージング

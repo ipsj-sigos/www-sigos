@@ -48,10 +48,30 @@ weight: 51
 
 ## トップカンファレンス凱旋講演{#topconf}
 
-### IIJ技術研究所 安形 憲一 様
+### IIJ技術研究所 安形 憲一 様{#topconf1}
 
-"zpoline: a system call hook mechanism based on binary rewriting"
+#### zpoline: a system call hook mechanism based on binary rewriting.
+<u>Kenichi Yasukata</u>, Hajime Tazaki, and Pierre-Louis Aublin (IIJ Research Laboratory), Kenta Ishiguro (Hosei University).<br>
+In Proceedings of the 2023 USENIX Annual Technical Conference, July, 2023.<br>
+https://www.usenix.org/conference/atc23/presentation/yasukata
+{{< spoiler text="Abstract" >}}
+This paper presents zpoline, a system call hook mechanism for x86-64 CPUs. zpoline employs binary rewriting and offers seven advantages: 1) low hook overhead, 2) exhaustive hooking, 3) it does not overwrite instructions that should not be modified, 4) no kernel change and no additional kernel module are needed, 5) source code of the user-space program is not required, 6) it does not rely on specially-modified standard libraries, and 7) it can be used for system call emulation. None of previous mechanisms achieve them simultaneously.
 
-### 東京大学 品川 高廣 様
+The main challenge, this work addresses, is that it is hard to replace syscall/sysenter with jmp/call for jumping to an arbitrary hook function because syscall and sysenter are two-byte instructions, and usually more bytes are required to specify an arbitrary hook function address.
 
-"Translation Pass-Through for Near-Native Paging Performance in VMs"
+zpoline resolves this issue with a novel binary rewriting strategy and special trampoline code; in a nutshell, it replaces syscall/sysenter with a two-byte callq *%rax instruction and instantiates the trampoline code at virtual address 0. We confirmed zpoline is functional on the major UNIX-like systems: Linux, FreeBSD, NetBSD, and DragonFly BSD. Our experiments show that zpoline achieves 28.1~761.0 times lower overhead compared to existing mechanisms which ensure exhaustive hooking without overwriting instructions supposed not to be modified, and Redis and a user-space network stack bonded by zpoline experience only a 5.2% performance reduction compared to the minimum overhead case while the existing mechanisms degrade 72.3~98.8% of performance.
+{{< /spoiler >}}
+
+### 東京大学 品川 高廣 様{#topconf2}
+
+#### Translation Pass-Through for Near-Native Paging Performance in VMs.
+Shai Bergman and Mark Silberstein (Technion), <u>Takahiro Shinagawa</u> (The University of Tokyo), Peter Pietzuch and Llu&#237;s Vilanova (Imperial College London).<br>
+In Proceedings of the 2023 USENIX Annual Technical Conference, July, 2023.<br>
+https://www.usenix.org/conference/atc23/presentation/bergman
+{{< spoiler text="Abstract" >}}
+Virtual machines~(VMs) are used for consolidation, isolation, and provisioning in the cloud, but applications with large working sets are impacted by the overheads of memory address translation in VMs. Existing translation approaches incur non-trivial overheads: (i)~nested paging has a worst-case latency that increases with page table depth; and (ii)~paravirtualized and shadow paging suffer from high hypervisor intervention costs when updating guest page tables.
+
+We describe Translation Pass-Through (TPT), a new memory virtualization mechanism that achieves near-native performance. TPT enables VMs to control virtual memory translation from guest-virtual to host-physical addresses using one-dimensional page tables. At the same time, inter-VM isolation is enforced by the host by exploiting new hardware support for physical memory tagging in commodity CPUs.
+
+We prototype TPT by modifying the KVM/QEMU hypervisor and enlightening the Linux guest. We evaluate it by emulating the memory tagging mechanism of AMD CPUs. Our conservative performance estimates show that TPT achieves native performance for real-world data center applications, with speedups of up to 2.4× and 1.4× over nested and shadow paging, respectively.
+{{< /spoiler >}}
