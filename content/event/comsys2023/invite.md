@@ -4,7 +4,6 @@ weight: 51
 ---
 
 ## 招待講演1{#invite1}
-
 {{<figure src="img/chiba.jpg" width="180px" height="180px">}}
 
 ### 千葉 滋（東京大学情報理工学系研究科創造情報学専攻・教授）
@@ -45,3 +44,14 @@ weight: 51
 (工学)。2017 年から筑波大学産学連携准教授 (2022 年から客員教授)、2018 年
 から 独立行政法人 情報処理推進機構 (IPA) サイバー技術研究室長。2020 年か
 ら NTT 東日本本社 特殊局員 (いずれも現役)。
+
+
+## トップカンファレンス凱旋講演{#topconf}
+
+### IIJ技術研究所 安形 憲一 様
+
+"zpoline: a system call hook mechanism based on binary rewriting"
+
+### 東京大学 品川 高廣 様
+
+"Translation Pass-Through for Near-Native Paging Performance in VMs"
