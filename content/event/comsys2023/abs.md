@@ -7,7 +7,7 @@ weight: 1
 
 ## ニュース
 
-- 2023年11月28日: [企業展示](#exhibit)と[スポンサー](#sponsor)を掲載しました
+- 2023年11月28日: [企業展示](#exhibition)と[スポンサー](#sponsor)を掲載しました
 - 2023年11月17日: [参加募集](#regist)を開始しました
 - 2023年11月8日: [ポスター発表](#poster)を公開しました
 - 2023年11月8日: [プログラム](#program)を公開しました
@@ -68,10 +68,12 @@ weight: 1
 
 ### Silver
 <div class="row">
-<div class="col-md">
+<div class="col">
 {{< figure src="img/arkedgespace.png" link="https://arkedgespace.com/" >}}
 </div>
-<div class="col-md">
+<div class="col">
 ソフトイーサ株式会社（準備中）
+</div>
+<div class="col-md">
 </div>
 </div>
