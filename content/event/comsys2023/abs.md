@@ -69,10 +69,10 @@ weight: 1
 ### Silver
 <div class="row">
 <div class="col">
-{{< figure src="img/arkedgespace.png" link="https://arkedgespace.com/" >}}
+ソフトイーサ株式会社（準備中）
 </div>
 <div class="col">
-ソフトイーサ株式会社（準備中）
+{{< figure src="img/arkedgespace.png" link="https://arkedgespace.com/" >}}
 </div>
 <div class="col-md">
 </div>
