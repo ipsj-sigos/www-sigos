@@ -20,28 +20,28 @@ weight: 1
 ## 重要日程
 
 <div class="row">
-<div class="col-6">
+<div class="col-md-6">
 <h3><i class="fa-solid fa-calendar-days"></i> 10月26日（木）</h3>
 <s>一般発表 申し込み〆切</s>
 </div>
 
-<div class="col-6">
+<div class="col-md-6">
 <h3><i class="fa-solid fa-calendar-days"></i> 11月2日（木）</h3>
 <s>ポスター発表 申し込み〆切</s>
 </div>
 
-<div class="col-6">
+<div class="col-md-6">
 <h3><i class="fa-solid fa-calendar-days"></i> 11月9日（木）</h3>
 <s>一般発表 原稿〆切<br>
 企業展示 申し込み〆切</s>
 </div>
 
-<div class="col-6">
+<div class="col-md-6">
 <h3><i class="fa-solid fa-calendar-days"></i> 11月30日（木）</h3>
 早期参加申し込み〆切
 </div>
 
-<div class="col-6">
+<div class="col-md-6">
 <h3><i class="fa-solid fa-calendar-days"></i> 12月7日（木）〜8日（金）</h3>
 シンポジウム開催
 </div>
@@ -53,20 +53,25 @@ weight: 1
 ### Gold
 
 <div class="row">
-<div class="col-6">
+<div class="col-md">
 {{< figure src="img/pfn.png" link="https://www.preferred.jp/ja/" >}}
 </div>
-<div class="col-6">
+<div class="col-md">
 {{< figure src="img/mitsubishi.png" link="https://www.mitsubishielectric.co.jp/" >}}
+</div>
+</div>
+<div class="row">
+<div class="col-md">
+トヨタ自動車株式会社（準備中）
 </div>
 </div>
 
 ### Silver
 <div class="row">
-<div class="col-6">
+<div class="col-md">
 {{< figure src="img/arkedgespace.png" link="https://arkedgespace.com/" >}}
 </div>
-<div class="col-6">
-TBA
+<div class="col-md">
+ソフトイーサ株式会社（準備中）
 </div>
 </div>
