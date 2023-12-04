@@ -6,9 +6,8 @@ date_string: '2023年12月7日（木）〜8日（金）'
 location: 県立広島大学 サテライトキャンパスひろしま
 hybrid: '（オンラインとのハイブリッド開催）'
 banner:
-  caption: 'Credit: khws4v1 @ flickr'
   image: 'featured.jpg'
-#  caption: 'Credit: 冬の東広島市市街地 (Wikimedia)'
+#  caption: 'Credit: khws4v1 @ flickr'
 #  image: 'featured2.jpg'
 featured: true
 
