@@ -62,7 +62,9 @@ weight: 1
 </div>
 <div class="row">
 <div class="col-md">
-トヨタ自動車株式会社（準備中）
+{{< figure src="img/toyota.gif" link="https://www.toyota-tokyo.tech/" >}}
+</div>
+<div class="col-md">
 </div>
 </div>
 
