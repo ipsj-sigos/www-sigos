@@ -38,7 +38,7 @@ weight: 1
 
 <div class="col-md-6">
 <h3><i class="fa-solid fa-calendar-days"></i> 11月30日（木）</h3>
-早期参加申し込み〆切
+<s>早期参加申し込み〆切</s>
 </div>
 
 <div class="col-md-6">
