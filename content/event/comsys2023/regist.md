@@ -59,7 +59,7 @@ table.GeneratedTable td {
       <td>無料</td>
     </tr>
     <tr>
-      <th>学生会員</th>
+      <th>学生非会員</th>
       <td>6,600円</td>
       <td>11,000円</td>
       <td>無料</td>
