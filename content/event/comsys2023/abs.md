@@ -71,7 +71,7 @@ weight: 1
 ### Silver
 <div class="row">
 <div class="col">
-ソフトイーサ株式会社（準備中）
+{{< figure src="img/softether.jpg" link="https://www.softether.jp/" >}}
 </div>
 <div class="col">
 {{< figure src="img/arkedgespace.png" link="https://arkedgespace.com/" >}}
