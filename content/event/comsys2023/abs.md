@@ -52,6 +52,7 @@ weight: 1
 
 ### Gold
 
+<br>
 <div class="row">
 <div class="col-md">
 {{< figure src="img/pfn.png" link="https://www.preferred.jp/ja/" >}}
@@ -59,22 +60,23 @@ weight: 1
 <div class="col-md">
 {{< figure src="img/mitsubishi.png" link="https://www.mitsubishielectric.co.jp/" >}}
 </div>
-</div>
-<div class="row">
 <div class="col-md">
+<br>
 {{< figure src="img/toyota.gif" link="https://www.toyota-tokyo.tech/" >}}
-</div>
-<div class="col-md">
 </div>
 </div>
 
 ### Silver
+
+<br>
 <div class="row">
-<div class="col">
-{{< figure src="img/softether.jpg" link="https://www.softether.jp/" >}}
+<div class="col-md">
 </div>
-<div class="col">
-{{< figure src="img/arkedgespace.png" link="https://arkedgespace.com/" >}}
+<div class="col-md">
+{{< figure src="img/softether.jpg" link="https://www.softether.jp/" width="75%" >}}
+</div>
+<div class="col-md">
+{{< figure src="img/arkedgespace.png" link="https://arkedgespace.com/" width="75%" >}}
 </div>
 <div class="col-md">
 </div>
