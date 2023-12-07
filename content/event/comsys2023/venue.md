@@ -1,12 +1,14 @@
 ---
 title: 会場
-weight: 90
+weight: 2
 ---
 
 ## シンポジウム会場
 
 ### [県立広島大学 サテライトキャンパスひろしま](https://www.pu-hiroshima.ac.jp/site/satellite/)<br>501・502大会議室
 #### （広島県民文化センター5階）
+
+入り口を入って右手にエレベーターがあります。
 
 {{< figure src="img/room.png" >}}
 
