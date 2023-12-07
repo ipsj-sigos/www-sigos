@@ -1,7 +1,7 @@
 ---
 weight: 1
 ---
-[【プログラム】](#program)  [【優秀若手発表賞投票】](https://forms.gle/DJPfoQqHVyqRxj549)  [【最優秀ポスター発表賞】](https://forms.gle/PJaqm7esgj5PdCpHA)
+[プログラム](#program) | [優秀若手発表賞](https://forms.gle/DJPfoQqHVyqRxj549) | [最優秀ポスター発表賞](https://forms.gle/PJaqm7esgj5PdCpHA)
 
 # 概要
 
