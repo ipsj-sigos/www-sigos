@@ -74,10 +74,10 @@ weight: 1
 <div class="col-md">
 </div>
 <div class="col-md">
-{{< figure src="img/softether.jpg" link="https://www.softether.jp/" width="75%" >}}
+{{< figure src="img/softether.jpg" link="https://www.softether.jp/" width="80%" >}}
 </div>
 <div class="col-md">
-{{< figure src="img/arkedgespace.png" link="https://arkedgespace.com/" width="75%" >}}
+{{< figure src="img/arkedgespace.png" link="https://arkedgespace.com/" width="80%" >}}
 </div>
 <div class="col-md">
 </div>
