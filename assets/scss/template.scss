@@ -27,20 +27,12 @@
     font-size: 1.5rem;
 }
 
-.wg-markdown h1 {
+
+.wg-markdown h1, .page-list h1, .page-body h1 {
     margin: 1em 0 1em 0;
     text-align: center;
 }
-.wg-markdown h2 {
-    margin: 2em 0 1em 0;
-    border-bottom: solid lightblue 4px;
-}
-
-.article-container h1 {
-    margin: 2em 0 1em 0;
-    text-align: center;
-}
-.article-container h2 {
+.wg-markdown h2, .page-list h2, .page-body h2 {
     margin: 2em 0 1em 0;
     border-bottom: solid lightblue 4px;
 }
