@@ -1,0 +1,13 @@
+{{- define "main" -}}
+
+<div class="universal-wrapper page-list">
+<h1>{{ .Title }}</h1>
+
+  {{ with .Content }}
+    <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  {{ partial "pagination" . }}
+</div>
+
+{{- end -}}
