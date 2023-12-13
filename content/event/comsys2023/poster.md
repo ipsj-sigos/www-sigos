@@ -25,7 +25,7 @@ nomenu: true
 1. TEE を用いた安全かつ可用性の高いクレジットカード決済スキームの提案<br>
 寳代 晋太郎, 品川 高廣(東京大学)<br>
 <a href="posters/ComSys_2023_poster_05.pdf">PDF</a><br>
-<b>🏆 最優秀ポスター賞</b>
+<b>最優秀ポスター賞 🎖️</b>
 
 1. AMD SEVとeBPFを用いた安全で高速なリモートVM監視<br>
 上杉 貫太, 光来 健一(九州工業大学)<br>
