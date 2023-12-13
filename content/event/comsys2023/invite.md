@@ -42,7 +42,7 @@ weight: 51
 
 [[発表スライド](materials/nobori-slide.pdf)]<br>
 [[講演参考資料 (1) 日本型組織 (政府・企業) を活かしたサイバー人材育成・技術研究マニュアル](materials/nobori-doc1.pdf)]<br>
-[[講演参考資料 (2)  秘密の NTT 電話局、フレッツ光、インターネット入門.pdf](materials/nobori-doc2.pdf)]
+[[講演参考資料 (2) 秘密の NTT 電話局、フレッツ光、インターネット入門](materials/nobori-doc2.pdf)]
 
 
 ## トップカンファレンス凱旋講演{#topconf}
