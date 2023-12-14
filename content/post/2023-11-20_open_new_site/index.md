@@ -3,7 +3,7 @@
 
 title: "OS研究会の新Webサイトをオープン"
 subtitle: ""
-summary: ""
+summary: "情報処理学会システムソフトウェアとオペレーティング・システム研究会（OS研究会）の新しいWebサイトを公開しました。"
 authors: [admin]
 tags: []
 categories: []
