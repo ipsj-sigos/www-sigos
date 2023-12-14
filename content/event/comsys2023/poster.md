@@ -1,7 +1,6 @@
 ---
 title: ポスター
 weight: 53
-nomenu: true
 ---
 
 ## ポスター発表一覧

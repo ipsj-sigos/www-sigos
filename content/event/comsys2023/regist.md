@@ -1,6 +1,7 @@
 ---
 title: 参加募集
 weight: 10
+menuitem: true
 ---
 ## 参加費
 

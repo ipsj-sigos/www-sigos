@@ -1,6 +1,7 @@
 ---
 title: 会場
 weight: 90
+menuitem: true
 ---
 
 ## シンポジウム会場

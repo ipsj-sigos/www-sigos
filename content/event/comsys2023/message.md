@@ -1,7 +1,6 @@
 ---
 title: メッセージ
 weight: 3
-nomenu: true
 ---
 ## ComSys 2023 開催に当たって
 

@@ -1,7 +1,6 @@
 ---
 title: 発表募集
 weight: 60
-nomenu: true
 ---
 ## スコープ
 

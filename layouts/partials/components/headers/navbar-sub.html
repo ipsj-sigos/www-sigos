@@ -34,7 +34,7 @@ false" aria-label="{{ i18n "toggle_navigation" }}">
             {{ $pages := site.GetPage .File.Path }}
             {{ if $pages }}
               {{ range $index, $block := where ( $pages.Resources.ByType "page" ) ".Params.active" "!=" false }}
-                {{ if not $block.Params.nomenu }}
+                {{ if $block.Params.menuitem }}
                   {{ $id := replace $block.File.ContentBaseName "index" (path.Base .File.Dir) }}
                   {{ $menu_list = $menu_list | append (dict "name" .Title "link" (printf "#%s" $id) ) }}
                 {{ end }}

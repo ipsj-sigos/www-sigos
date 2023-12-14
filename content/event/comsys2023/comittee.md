@@ -1,6 +1,7 @@
 ---
 title: 委員会
 weight: 85
+menuitem: true
 ---
 
 ## 実行委員会

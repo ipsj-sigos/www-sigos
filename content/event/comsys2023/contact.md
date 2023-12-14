@@ -1,6 +1,7 @@
 ---
 title: 連絡先
 weight: 99
+menuitem: true
 ---
 
 ## シンポジウム担当幹事
