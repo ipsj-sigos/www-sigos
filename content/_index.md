@@ -42,10 +42,29 @@ sections:
     content:
       text: |
         {{% callout warning %}}
-        本サイトは現在のところ ComSys 2023 以降の情報のみ掲載しています。それ以前の情報については旧サイト http://www.ipsj.or.jp/sig/os/ をご参照ください。
+        本サイトは現在のところ ComSys 2023 以降の情報のみ掲載しています。<br>それ以前の情報については旧サイト http://www.ipsj.or.jp/sig/os/ をご参照ください。
         {{% /callout %}}
     design:
       columns: '1'
+
+  - block: collection
+    content:
+      title: ニュース
+      subtitle:
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: post
+    design:
+      view: list
+      columns: '2'
 
   - block: portfolio
     content:
@@ -65,28 +84,8 @@ sections:
         - name: 研究発表会
           tag: Workshop
       design:
-        columns: '1'
         view: showcase
         flip_alt_rows: true
-
-  - block: collection
-    content:
-      title: ニュース
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
 
 #  - block: markdown
 #    content:
