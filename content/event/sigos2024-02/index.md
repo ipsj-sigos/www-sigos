@@ -6,9 +6,8 @@ date_string: '2024年2月19日（月）〜20日（火）'
 location: '石川県政記念 しいのき迎賓館'
 hybrid: '（ハイブリッド開催）'
 banner:
-  caption: 'Credit: Wikimedia'
   image: 'featured.jpg'
-  authors: []
+  caption: ''
 page_menu:
   title: '2024年2月研究発表会'
 

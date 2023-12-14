@@ -4,7 +4,7 @@ weight: 90
 menuitem: true
 ---
 
-## 会場アクセス
+## 場所
 
 ### [石川県政記念 しいのき迎賓館](https://www.shiinoki-geihinkan.jp/)
 
