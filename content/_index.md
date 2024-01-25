@@ -19,7 +19,7 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: 研究発表会
+      - title: OS研究発表会
         content: 'システムソフトウェアに関する最先端の研究成果が発表されます 💻'
         align: left
         background:
@@ -73,6 +73,7 @@ sections:
         folders:
           - event
         tags: ['ComSys', 'Workshop']
+        exclude_tags: ['Past']
         kinds:
           - page
       default_button_index: 0
