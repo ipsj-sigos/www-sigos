@@ -10,6 +10,7 @@ weight: 1
 
 ## ニュース
 
+- 2024年1月30日: [参加募集](#regist)を開始しました。
 - 2024年1月25日: [プログラム](#program)を公開しました。
 - 2023年12月13日: [発表募集](#cfp)を開始しました。
 - 2023年11月15日: ホームページを開設しました
@@ -18,12 +19,12 @@ weight: 1
 
 <div class="row">
 <div class="col-md-6">
-<h3><i class="fa-solid fa-calendar-days"></i> 2024年1月15日（月）</h3>
+<h3><i class="fa-solid fa-calendar-days"></i> <s>2024年1月15日（月）</s></h3>
 発表申込〆切
 </div>
 
 <div class="col-md-6">
-<h3><i class="fa-solid fa-calendar-days"></i> 2024年1月29日（月）</h3>
+<h3><i class="fa-solid fa-calendar-days"></i> <s>2024年1月29日（月）</s></h3>
 発表原稿〆切<br>
 </div>
 

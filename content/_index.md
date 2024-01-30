@@ -9,8 +9,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: <span>情報処理学会</span><span>OS研究会</span>
-        content: 'システムソフトウェアやオペレーティングシステムに関する日本🇯🇵の研究者コミュニティです'
+      - title: 情報処理学会OS研究会
+        content: 'システムソフトウェアやオペレーティングシステムに関する<br>日本の研究者コミュニティです'
         align: center
         background:
           image:
@@ -44,6 +44,8 @@ sections:
         {{% callout warning %}}
         本サイトは現在のところ ComSys 2023 以降の情報のみ掲載しています。<br>それ以前の情報については旧サイト http://www.ipsj.or.jp/sig/os/ をご参照ください。
         {{% /callout %}}
+        <br>
+        {{% cta cta_link="https://service.kktcs.co.jp/smms2/m2event/ipsj1/201801000" cta_text="2024年2月研究発表会 参加申し込み" %}}
     design:
       columns: '1'
 
@@ -87,6 +89,15 @@ sections:
       design:
         view: showcase
         flip_alt_rows: true
+
+  - block: markdown
+    content:
+      text: |
+        ### 電子図書館
+          - [研究報告](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_opensearch&index_id=1867)
+          - [コンピュータシステム・シンポジウム](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_opensearch&index_id=6617)
+    design:
+      columns: '2'
 
 #  - block: markdown
 #    content:

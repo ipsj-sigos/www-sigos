@@ -9,7 +9,7 @@ appearance:
   theme_day: minimal
   theme_night: minimal
   font: native
-  font_size: M
+  font_size: S
 
 # SEO
 
@@ -47,7 +47,7 @@ header:
 
 footer:
   copyright:
-    notice: '&copy; {year} 情報処理学会システムソフトウェアとオペレーティング・システム研究会<br>IPSJ SIGOS is the Japanese researcher community on system software and operating systems'
+    notice: '&copy; {year} 情報処理学会システムソフトウェアとオペレーティング・システム研究会<br>IPSJ SIGOS is a Japanese research community on system software and operating systems'
     license:
       enable: false
       allow_derivatives: false

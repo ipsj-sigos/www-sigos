@@ -9,6 +9,7 @@ tags: []
 categories: []
 date: 2023-11-20T08:02:12+09:00
 lastmod: 2023-11-20T08:02:12+09:00
+all_day: true
 featured: false
 draft: false
 
