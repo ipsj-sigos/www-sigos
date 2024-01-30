@@ -44,5 +44,8 @@ div.people-widget h2 {
 
 // Center the CTA shortcode button
 .cta-group {
-  justify-content: center;
+    justify-content: center;
+}
+.cta-group li a {
+    font-size: 1.2rem;
 }
