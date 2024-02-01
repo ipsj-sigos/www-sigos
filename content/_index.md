@@ -46,7 +46,7 @@ sections:
         {{% /callout %}}
         <br>
 
-        {{% cta cta_link="https://sigos.ipsj.or.jp/event/sigos2024-02/#regist" cta_text="2024年2月研究発表会の参加申し込みはこちら" %}}
+        {{% cta cta_link="/event/sigos2024-02/#regist" cta_text="2024年2月研究発表会の参加申し込みはこちら" %}}
     design:
       columns: '1'
 
