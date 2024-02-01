@@ -73,3 +73,17 @@ table.reg td {
 ## 詳細
 
 [第162回OS研究発表会 （情報処理学会のページ）](https://www.ipsj.or.jp/kenkyukai/event/os162.html)
+
+
+## 懇親会
+
+- 日時: 2/19（月） 19:00～
+- 場所: のど黒めし本舗 いたる　香林坊店
+- 予算: 5,500 円（税込み、予定）
+- 募集〆切: 2/11（日） 13:00
+- 担当: 穐山 空道（立命館大学）
+
+25 名でお店を仮抑えしてておりますので、締め切り前に申し込み頂いてもキャパシティの観点からお断りさせていただく可能性もあります。
+インボイス制度に対応できないため領収書は発行できません。ご了承ください。
+
+{{% cta cta_link="https://docs.google.com/forms/d/e/1FAIpQLSfItPKi4tekmp1XLR-ooC3DCdVFiZs-7dGlW-xFtLj2GjkaaA/viewform?usp=sf_link" cta_text="懇親会申し込み" %}}

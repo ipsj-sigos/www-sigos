@@ -1,6 +1,6 @@
 ---
 title: プログラム
-weight: 20
+weight: 50
 menuitem: true
 ---
 {{% callout info %}}

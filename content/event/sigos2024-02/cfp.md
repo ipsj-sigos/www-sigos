@@ -1,6 +1,6 @@
 ---
 title: 発表募集
-weight: 50
+weight: 70
 menuitem: true
 ---
 <style>

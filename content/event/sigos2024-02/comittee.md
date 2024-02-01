@@ -1,6 +1,6 @@
 ---
 title: 委員会
-weight: 80
+weight: 90
 menuitem: true
 ---
 
