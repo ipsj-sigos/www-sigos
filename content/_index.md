@@ -20,8 +20,8 @@ sections:
           position: right
           color: '#666'
       - title: OS研究発表会
-        content: 'システムソフトウェアに関する最先端の研究成果が発表されます 💻'
-        align: left
+        content: 'システムソフトウェアに関する最先端の研究成果が発表されます'
+        align: center
         background:
           image:
             filename: symposium.jpg
@@ -45,7 +45,8 @@ sections:
         本サイトは現在のところ ComSys 2023 以降の情報のみ掲載しています。<br>それ以前の情報については旧サイト http://www.ipsj.or.jp/sig/os/ をご参照ください。
         {{% /callout %}}
         <br>
-        {{% cta cta_link="https://service.kktcs.co.jp/smms2/m2event/ipsj1/201801000" cta_text="2024年2月研究発表会 参加申し込み" %}}
+
+        {{% cta cta_link="https://sigos.ipsj.or.jp/event/sigos2024-02/#regist" cta_text="2024年2月研究発表会の参加申し込みはこちら" %}}
     design:
       columns: '1'
 
