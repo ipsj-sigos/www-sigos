@@ -75,7 +75,7 @@ table.reg td {
 [第162回OS研究発表会 （情報処理学会のページ）](https://www.ipsj.or.jp/kenkyukai/event/os162.html)
 
 
-## 懇親会
+## 懇親会{#reception}
 
 - 日時: 2/19（月） 19:00～
 - 場所: のど黒めし本舗 いたる　香林坊店
