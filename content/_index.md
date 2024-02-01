@@ -10,7 +10,7 @@ sections:
     content:
       slides:
       - title: 情報処理学会OS研究会
-        content: 'システムソフトウェアやオペレーティングシステムに関する<br>日本の研究者コミュニティです'
+        content: '<span>システムソフトウェアや</span><span>オペレーティングシステムに関する</span><br>日本の研究者コミュニティです'
         align: center
         background:
           image:
@@ -20,7 +20,7 @@ sections:
           position: right
           color: '#666'
       - title: OS研究発表会
-        content: 'システムソフトウェアに関する最先端の研究成果が発表されます'
+        content: '<span>システムソフトウェアに関する</span><span>最先端の研究成果が</span><span>発表されます</span>'
         align: center
         background:
           image:
@@ -42,7 +42,7 @@ sections:
     content:
       text: |
         {{% callout warning %}}
-        本サイトは現在のところ ComSys 2023 以降の情報のみ掲載しています。<br>それ以前の情報については旧サイト http://www.ipsj.or.jp/sig/os/ をご参照ください。
+        本サイトは現在のところ ComSys 2023 以降の情報のみ掲載しています。それ以前の情報については旧サイト http://www.ipsj.or.jp/sig/os/ をご参照ください。
         {{% /callout %}}
         <br>
 
