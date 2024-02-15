@@ -86,4 +86,7 @@ table.reg td {
 25 名でお店を仮抑えしてておりますので、締め切り前に申し込み頂いてもキャパシティの観点からお断りさせていただく可能性もあります。
 インボイス制度に対応できないため領収書は発行できません。ご了承ください。
 
-{{% cta cta_link="https://docs.google.com/forms/d/e/1FAIpQLSfItPKi4tekmp1XLR-ooC3DCdVFiZs-7dGlW-xFtLj2GjkaaA/viewform?usp=sf_link" cta_text="懇親会申し込み" %}}
+{{% callout note %}}
+締め切りました。
+{{% /callout %}}
+<!-- {{% cta cta_link="https://docs.google.com/forms/d/e/1FAIpQLSfItPKi4tekmp1XLR-ooC3DCdVFiZs-7dGlW-xFtLj2GjkaaA/viewform?usp=sf_link" cta_text="懇親会申し込み" %}} -->
