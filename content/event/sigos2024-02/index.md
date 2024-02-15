@@ -4,6 +4,7 @@ title: '2024年2月研究発表会'
 subtitle: '(第162回システムソフトウェアとオペレーティング・システム研究発表会)'
 date_string: '2024年2月19日（月）〜20日（火）'
 location: '石川県政記念しいのき迎賓館'
+room: '3F セミナールームB'
 hybrid: '（ハイブリッド開催）'
 banner:
   image: 'featured.jpg'

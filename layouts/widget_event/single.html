@@ -25,6 +25,9 @@
     <p class="page-subtitle">{{ .Params.subtitle | markdownify | emojify }}</p>
     <p class="event-date">{{ .Params.date_string }}
     <br>{{ .Params.location }}
+    {{ if .Params.room }}
+    <br>{{ .Params.room }}
+    {{ end }}
     {{ if .Params.hybrid }}
     <br>{{ .Params.hybrid }}
     {{ end }}
