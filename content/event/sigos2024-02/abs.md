@@ -8,6 +8,8 @@ weight: 1
 
 第{{<get number>}}回目となる「{{<get title>}}」{{<get subtitle>}}は、{{<get date_string>}}に、{{<get location>}}とオンラインのハイブリッドで開催いたします。
 
+{{% cta cta_link="https://docs.google.com/forms/d/e/1FAIpQLSe8sXKPsU8L96PqO-I9evBUu0aRlkxGP_5wd53ZUJums9Bx_Q/viewform?usp=sf_link" cta_text="優秀若手発表賞の投票フォーム" %}}
+
 ## ニュース
 
 - 2024年2月15日: [会場](#venue)の情報を追加しました。
