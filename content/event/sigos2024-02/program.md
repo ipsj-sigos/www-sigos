@@ -72,7 +72,7 @@ menuitem: true
     [【論文】](http://id.nii.ac.jp/1001/00232267/)
 
 
-### 17:00- 懇親会
+### 19:00- 懇親会
 
 [のど黒めし本舗 いたる　香林坊店](https://maps.app.goo.gl/BcYVC5Wqhutzrufq6)
 
