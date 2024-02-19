@@ -44,9 +44,6 @@ sections:
         {{% callout warning %}}
         本サイトは現在のところ ComSys 2023 以降の情報のみ掲載しています。それ以前の情報については旧サイト http://www.ipsj.or.jp/sig/os/ をご参照ください。
         {{% /callout %}}
-        <br>
-
-        {{% cta cta_link="/event/sigos2024-02/#regist" cta_text="2024年2月研究発表会の参加申し込みはこちら" %}}
     design:
       columns: '1'
 
@@ -55,7 +52,7 @@ sections:
       title: ニュース
       subtitle:
       text:
-      count: 5
+      count: 4
       filters:
         author: ''
         category: ''
