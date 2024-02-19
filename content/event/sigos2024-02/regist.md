@@ -1,6 +1,6 @@
 ---
 title: 参加募集
-weight: 10
+weight: 60
 menuitem: true
 ---
 ## 参加登録
