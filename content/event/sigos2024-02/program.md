@@ -72,6 +72,10 @@ menuitem: true
     [【論文】](http://id.nii.ac.jp/1001/00232267/)
 
 
+### 17:00- 懇親会
+
+[のど黒めし本舗 いたる　香林坊店](https://maps.app.goo.gl/BcYVC5Wqhutzrufq6)
+
 # 2月20日（火）（2日目）
 
 ### 10:00-11:30 セッション5 （ビッグデータ）
