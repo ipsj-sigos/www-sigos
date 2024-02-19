@@ -34,7 +34,7 @@ menuitem: true
 座長: 佐藤将也（岡山県立大学）
 
 (4) Precision Time Protocolにおける通信遅延補正処理のモジュール化<br>
-    小堀 和人（法政大学大学院）, 李 忠翰（トヨタ自動車株式会社）, 廣津 登志夫（法政大学）<br>
+    小堀 和人（法政大学大学院）, 李 忠翰（トヨタ自動車株式会社）, ○廣津 登志夫（法政大学）<br>
     [【論文】](http://id.nii.ac.jp/1001/00232263/)
 
 (5) シンボル情報の解析によるイーサネットデバイスドライバとLinux kernelの依存調査<br>
@@ -48,7 +48,7 @@ menuitem: true
 ### 14:45-16:15 セッション3 （一貫性制御）
 座長: 毛利公一（立命館大学）
 
-(7) Automatic Verification of Concurrency Memory Bugs in Linux Kernel Modules by transpilation to PlusCal<br>
+(7) Towards Automatic Verification of Concurrency Memory Bugs in Linux Kernel Modules by transpilation to PlusCal<br>
 服部 穣（東京大学）, 高野 祐輝（TIER IV）, 小林 直樹（東京大学）<br>
     [【論文】](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=232376)
 
