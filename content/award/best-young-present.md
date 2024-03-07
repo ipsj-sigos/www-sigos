@@ -21,6 +21,27 @@ date: 2023-12-11
 
 ## 受賞者一覧{#award-winner}
 
+### 第162回 (2024年2月)
+ 【最優秀若手発表賞】
+ * 2024-OS-162 (14)<br>
+ (14) コピーオンライトを考慮したHugepage管理機構<br>
+ ○笠原 一真(東京農工大学), 山田 浩史(東京農工大学)
+
+ 【優秀若手発表賞】
+ * 2024-OS-162 (9)<br>
+ (9) SiloSF: Concurrency Control Protocol with Lightweight Priority Control
+ ○土岐 紘大(慶應義塾大学), 星野 喬(サイボウズ・ラボ), 川島 英之(慶應義塾大学)
+
+ * 2024-OS-162 (7)<br>
+ (7) Towards Automatic Verification of Concurrency Memory Bugs in Linux Kernel Modules by transpilation to PlusCal
+ ○服部 穣(東京大学), 高野 祐輝(TIER IV), 小林 直樹(東京大学)
+
+### ComSys2023 (2032年12月)
+ 【最優秀若手発表賞】
+ * 2023-ComSys(6)<br>
+ (6) インメモリKey-Value Store向けメモリエラーハンドラのテスト支援<br>
+ ○根津 直也, 山田 浩史(東京農工大学)
+
 ### 第161回 (2023年9月)
  【最優秀若手発表賞】
  * 2023-OS-161 (7)<br>
@@ -82,12 +103,12 @@ date: 2023-12-11
 ### ComSys2022 (2022年12月)
  【最優秀若手発表賞】
  * 2022-ComSys(2)<br>
- 　Nested SEV：ネストした仮想化へのAMD SEVの適用<br>
+ Nested SEV：ネストした仮想化へのAMD SEVの適用<br>
    〇瀧口 和樹，光来 健一（九州工業大）
 
  【優秀若手発表賞】
  * 2022-ComSys(7)<br>
- 　HPCクラウドでのOSノイズの定量評価<br>
+ HPCクラウドでのOSノイズの定量評価<br>
    〇楠 恒輝，加藤 純，佐藤 充（富士通）
 
 ###  第157回 (2022年9月)
