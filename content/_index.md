@@ -52,7 +52,7 @@ sections:
       title: ニュース
       subtitle:
       text:
-      count: 4
+      count: 3
       filters:
         author: ''
         category: ''
