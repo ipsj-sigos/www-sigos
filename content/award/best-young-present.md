@@ -25,16 +25,19 @@ date: 2023-12-11
  【最優秀若手発表賞】
  * 2024-OS-162 (14)<br>
  (14) コピーオンライトを考慮したHugepage管理機構<br>
- ○笠原 一真(東京農工大学), 山田 浩史(東京農工大学)
+ ○笠原 一真(東京農工大学), 山田 浩史(東京農工大学)<br>
+ [【論文】](http://id.nii.ac.jp/1001/00232269/)
 
  【優秀若手発表賞】
  * 2024-OS-162 (9)<br>
  (9) SiloSF: Concurrency Control Protocol with Lightweight Priority Control
- ○土岐 紘大(慶應義塾大学), 星野 喬(サイボウズ・ラボ), 川島 英之(慶應義塾大学)
+ ○土岐 紘大(慶應義塾大学), 星野 喬(サイボウズ・ラボ), 川島 英之(慶應義塾大学)<br>
+ [【論文】](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=232378)
 
  * 2024-OS-162 (7)<br>
  (7) Towards Automatic Verification of Concurrency Memory Bugs in Linux Kernel Modules by transpilation to PlusCal
- ○服部 穣(東京大学), 高野 祐輝(TIER IV), 小林 直樹(東京大学)
+ ○服部 穣(東京大学), 高野 祐輝(TIER IV), 小林 直樹(東京大学)<br>
+ [【論文】](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=232376)
 
 ### ComSys2023 (2032年12月)
  【最優秀若手発表賞】
